@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="7dp"
+    app:cardElevation="6dp"
+    android:elevation="6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="16 Sep, 2018"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:padding="5dp"
+                android:textColor="@color/BlackColor"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Title"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:padding="5dp"
+                android:textColor="@color/BlackColor"/>
+
+            <TextView
+                android:id="@+id/note"
+                android:layout_below="@+id/type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:padding="5dp"
+                android:maxLines="2"
+                android:textColor="@color/BlackColor" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/amount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0000"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:padding="5dp"
+                android:textColor="@color/BlackColor"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

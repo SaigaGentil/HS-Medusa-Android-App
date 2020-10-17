@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">HS Medusa</string>
+    <string name="email">Email</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="password">Password</string>
+    <string name="first_name">First Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="i_agree_to_the_terms_and_conditions">I agree to the Terms and Conditions</string>
+    <string name="username">Username</string>
+    <string name="todo">TODO</string>
+    <string name="register">REGISTER</string>
+    <string name="last_name">Last Name</string>
+    <string name="add_restaurant">Add restaurant</string>
+    <string name="username_email">Username / Email</string>
+    <string name="stay_logged_in">Stay Logged In</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="no_account_create_one">No account? Create one!</string>
+    <string name="hs_logo">The main logo</string>
+    <string name="logout">Logout</string>
+    <string name="welcome">WELCOME TO MEDUSA</string>
+    <string name="product">A Hello Sky Group Product</string>
+    <string name="from_us">Copyright © 2020 HelloSky R&amp;D | Software Department</string>
+    <string name="about_us">
+        HelloSky group is a group that is still under development and will focus
+        on developing various sectors from various areas of engineering to shopping malls and real
+        estate. It will have several companies under it like HelloSky Alpha and many more that will
+        be coming in the near future.
+    </string>
+    <string name="info_mail">info@helloskygroup.com</string>
+    <string name="navigationHome">Home</string>
+    <string name="navigationSearch">Explore</string>
+    <string name="navigationUser">My Profile</string>
+
+    <string name="server_up">Connection to the server is established</string>
+    <string name="server_down">Connection to the server is not established</string>
+    <string name="item_added">The item has been added</string>
+    <string name="item"></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

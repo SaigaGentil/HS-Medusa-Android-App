@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:fitsSystemWindows="true">
+
+    <RelativeLayout
+        android:id="@+id/some_id_shit"
+        android:layout_width="match_parent"
+        android:layout_height="405dp"
+        android:fitsSystemWindows="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_marginTop="35dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/newlogo"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Saiga Gentil"
+                android:textColor="@color/WhiteColor"
+                android:textStyle="bold"
+                android:textSize="21sp"/>
+            <TextView
+                android:layout_marginTop="1dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Administrator"
+                android:textColor="@color/grey"
+                android:textStyle="italic"
+                android:textSize="10sp"/>
+        </LinearLayout>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/data_card"
+            android:layout_width="400dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="275dp"
+            app:cardBackgroundColor="@color/WineRed"
+            app:cardCornerRadius="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="3">
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Active Users"
+                        android:textSize="15sp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="12"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:paddingTop="10dp"
+
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Servers Availability"
+                        android:textSize="15sp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="90%"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:paddingTop="10dp"
+
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Database Status"
+                        android:textSize="16sp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Online"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:paddingTop="10dp"
+
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/WhiteColor"
+        android:layout_below="@+id/some_id_shit">
+
+    </LinearLayout>
+
+</RelativeLayout>
